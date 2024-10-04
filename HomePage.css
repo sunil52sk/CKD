@@ -1,0 +1,180 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e3f2fd; /* Light blue background */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Adjust alignment to top */
+}
+
+.homepage-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 700px;
+  text-align: center;
+  overflow: visible; /* Ensure content is not cropped */
+  margin-top: 20px; /* Add margin to top */
+}
+
+.homepage-container h2 {
+  margin-bottom: 20px;
+  color: #0288d1; /* Blue color for headings */
+}
+
+.homepage-container h3 {
+  margin-top: 25px;
+  color: #01579b; /* Darker blue for subheadings */
+}
+
+.homepage-container p {
+  color: #555555;
+  line-height: 1.8;
+}
+
+.homepage-container img {
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 100%; /* Ensure image is responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure image is a block element */
+}
+
+.cool-input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #01579b; /* Darker blue border */
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.cool-input:focus {
+  border-color: #0288d1; /* Lighter blue border on focus */
+  box-shadow: 0 0 8px rgba(2, 136, 209, 0.5); /* Lighter blue shadow on focus */
+}
+
+.cool-button {
+  width: 80%;
+  padding: 12px;
+  background-color: #0288d1; /* Primary blue color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cool-button:hover {
+  background-color: #01579b; /* Darker blue on hover */
+}
+
+.additional-content {
+  margin-top: 30px;
+  color: #01579b; /* Darker blue for additional content */
+  text-align: left;
+}
+
+.calculate-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calculate-container h3 {
+  color: #0288d1; /* Blue color for headings */
+  margin-bottom: 15px;
+}
+
+.calculate-container label {
+  display: block;
+  margin-top: 10px;
+  color: #01579b; /* Darker blue for labels */
+  font-weight: bold;
+}
+
+.calculate-container input {
+  width: calc(100% - 20px); /* Adjust width to fit container with padding */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #01579b; /* Darker blue border */
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.calculate-container input:focus {
+  border-color: #0288d1; /* Lighter blue border on focus */
+  box-shadow: 0 0 8px rgba(2, 136, 209, 0.5); /* Lighter blue shadow on focus */
+}
+
+.calculate-container button {
+  width: 100%; /* Full width within the container */
+  padding: 12px;
+  background-color: #0288d1; /* Primary blue color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.calculate-container button:hover {
+  background-color: #01579b; /* Darker blue on hover */
+}
+
+.calculate-container p {
+  color: #01579b; /* Darker blue for text */
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.info-button {
+  padding: 15px 30px; /* Increase padding for a bigger button */
+  background-color: #0288d1; /* Primary blue color */
+  color: white;
+  border: none;
+  border-radius: 12px; /* Increase border-radius for a more rounded look */
+  cursor: pointer;
+  font-size: 18px; /* Increase font size */
+  font-family: 'Arial', sans-serif; /* Change the font */
+  font-weight: bold; /* Make the font bold */
+  transition: background-color 0.3s ease-in-out;
+  margin: 20px 10px 20px 0; /* Add margin for spacing */
+}
+
+.info-button:hover {
+  background-color: #01579b; /* Darker blue on hover */
+}
+
+.ckd-calculator-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.close-button {
+  background-color: #d32f2f; /* Red color for close button */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}

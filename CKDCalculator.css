@@ -1,0 +1,62 @@
+.ckd-calculator-container {
+    background-color: #e0f7fa; /* Light blue background */
+    border: 1px solid #00796b; /* Blue border */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: left; /* Align text to left */
+  }
+  
+  .ckd-calculator-container h2 {
+    color: #00796b; /* Dark cyan color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #004d40; /* Darker cyan color for labels */
+  }
+  
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #004d40; /* Dark cyan border */
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-group input:focus, .form-group select:focus {
+    border-color: #00796b; /* Darker cyan on focus */
+    box-shadow: 0 0 8px rgba(0, 121, 107, 0.5);
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00796b; /* Dark cyan background */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  .submit-button:hover {
+    background-color: #004d40; /* Darker cyan on hover */
+  }
+  
+  .result {
+    color: #004d40; /* Darker cyan color for result text */
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

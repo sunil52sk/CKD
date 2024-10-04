@@ -1,0 +1,50 @@
+.ckd-detection-container {
+    background-color: rgb(190, 247, 255);
+    border: 1px solid #ddd;
+    padding: 5%;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: aliceblue;
+  }
+  
+  .form-group {
+    margin-bottom: 1em;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  .form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #00ffd5;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-group input:focus {
+    border-color: #00796b;
+    box-shadow: 0 0 8px rgba(0, 121, 107, 0.5);
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: #004d40;
+  }
+  

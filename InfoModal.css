@@ -1,0 +1,53 @@
+/* Overlay styles */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent black background */
+    position: fixed; /* Sticks the overlay to the viewport */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex; /* Centers the modal */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Modal styles */
+  .modal {
+    background: white; /* White background for the modal */
+    padding: 20px; /* Padding inside the modal */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 500px; /* Maximum width of the modal */
+    width: 90%; /* Width of the modal relative to the viewport */
+    text-align: center; /* Centered text */
+  }
+  
+  /* Modal header styles */
+  .modal h2 {
+    color: #00796b; /* Dark cyan color for the header */
+    margin-bottom: 20px; /* Space below the header */
+  }
+  
+  /* Modal paragraph styles */
+  .modal p {
+    color: #555555; /* Dark grey color for the text */
+    line-height: 1.8; /* Line height for better readability */
+  }
+  
+  /* Close button styles */
+  .close-button {
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #00796b; /* Dark cyan background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    margin-top: 20px; /* Space above the button */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
+  }
+  
+  /* Close button hover effect */
+  .close-button:hover {
+    background-color: #004d40; /* Darker cyan on hover */
+  }
+  
